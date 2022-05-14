@@ -13,6 +13,7 @@ body {
 }
 
 .navbar {
+    font-family: 'Ubuntu Condensed', sans-serif;
     padding-left: 19%;
     padding-right: 19%;
 }
@@ -37,11 +38,11 @@ h1 {
 }  
 
 
-h2 {
-    font-family: 'Montserrat';
-    font-size: 0.5.rem;
+h2 .tech-Flash {
+    font-family: "Ubuntu Condensed";
+    margin-top: 5;
+    font-size: 1.5.rem;
 }
-h2 
 
 h5 {
     font-weight:lighter;
@@ -55,10 +56,17 @@ h5 {
     font-size: 2rem;
     
 }
-p{
-    font-family: 'Montserrat';
+p , li{
+    font-family: 'Merriweather', serif;
     font-size: 1.6rem;
 
+}
+
+lead {
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Montserrat'; */
+    font-size: 1.6rem;
+    margin: 5px;
 }
 
 p2{
@@ -68,10 +76,14 @@ p2{
 
 }
 
-
+.dropdown-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    
+}
 
 .drop-Shadow {
-    background-color: rgba(245, 245, 220, 0);
+    background-color: rgb(245, 245, 220);
 }
 
 .lead {
@@ -90,10 +102,6 @@ p2{
    
 }
 
-.jumbotron :before {
-    opacity: 75;
-
-}
 
 
 .btn-outline-light{
