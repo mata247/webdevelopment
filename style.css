@@ -69,6 +69,13 @@ lead {
     margin: 5px;
 }
 
+
+.service-list{
+    font-family: "Ubuntu Condensed";
+    margin-top: 5;
+    font-size: 2.rem; 
+}
+
 p2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -108,7 +115,7 @@ p2{
     border-color: rgba(5, 222, 246, 0.414);
 }
 .btn-outline-light:hover {
-    background-color: rgba(234, 11, 11, 0.082);
+    background-color: rgba(234, 11, 11, 0.872);
 }
 
 .mybox1 {
