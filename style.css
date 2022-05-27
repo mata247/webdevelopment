@@ -17,12 +17,16 @@ body {
     padding-left: 19%;
     padding-right: 19%;
 }
-/* .navbar-toggler{
-    margin-top: 2%;
+.navbar-toggler{
+     /* margin-top: 2%;
     margin-bottom: 2%;
-    padding-right: 10%;  
-} */
-
+    padding-right: 10%;   
+    align-items: center;  */
+    margin-left: 10;
+}
+ .logoicon {
+     color: black;
+ }
 /* .navbar-brand {
     
 } */
@@ -38,27 +42,44 @@ h1 {
 }  
 
 
-h2 .tech-Flash {
+h2  {
+    
     font-family: "Ubuntu Condensed";
     margin-top: 5;
     font-size: 1.5.rem;
 }
 
 h5 {
-    font-weight:lighter;
+    font-weight:bold;
     
 }
 
+
+
 .logo {
-    margin-top: 15px;
-    align-items: flex-start;
+    margin-top: 10px;
+    margin-right: auto ;
+    /* align-items: flex-start; */
     padding-bottom: 20px;
     font-size: 2rem;
-    
+  
 }
+
+
+
+.mybox1 {
+    display: block;
+    /* background-color: rgba(225, 222, 219, 0.24); */
+    min-height: 180px;
+    margin-top:  5px;
+    text-align: left;
+    /* padding-top: 10px;
+    padding: 0px 15px 0px 5px; */
+}
+
 p , li{
     font-family: 'Merriweather', serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 
 }
 
@@ -66,26 +87,40 @@ lead {
     font-family: 'Merriweather', serif;
     /* font-family: 'Montserrat'; */
     font-size: 1.6rem;
-    margin: 5px;
+    margin:auto
+}
+
+.carousel-item{
+    width: 300px;
+}
+.carouselExampleControls{
+    width: 300px;
 }
 
 
 .service-list{
     font-family: "Ubuntu Condensed";
     margin-top: 5;
-    font-size: 2.rem; 
+    font-size: 1.rem; 
+    opacity: 1.6;
+    
 }
 
 p2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
     color: rgb(19, 20, 20);
 
 }
 
+.dropdown-menu{
+    background-color: rgba(244, 244, 249, 0.848);
+    align-items: center;
+   }
+
 .dropdown-item{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
     
 }
 
@@ -101,14 +136,24 @@ p2{
 }
 .jumbotron{
     
-    background:transparent url(images/lack4.png);
+    background-image: url(images/kal-Nakalonge3.png);
+   
     background-size: cover;
+    
+    min-height: 50px;
     border-radius: 15px 15px 0px 0px;
-    margin-top: 130px;
-    margin-bottom:10px;
+    margin-top: 150px;
+    margin-bottom: 1px;
+    display: flex;
+    
    
 }
 
+.messagedujour {
+    font-family: 'Anton', sans-serif;
+    size: 3rem;
+    color: aliceblue;
+}
 
 
 .btn-outline-light{
@@ -118,13 +163,11 @@ p2{
     background-color: rgba(234, 11, 11, 0.872);
 }
 
-.mybox1 {
-    /* background-color: rgba(225, 222, 219, 0.24); */
-    min-height: 180px;
-    margin-top:  0px;
-    padding-top: 10px;
-    padding: 0px 15px 0px 5px;
-     
+.btn {
+    display: block;
+    width: 30%;
+    /* margin-left: 40%; */
+    margin-top: 5px;
 }
 
 /* .card img {
@@ -141,7 +184,19 @@ p2{
 
     .card {
         width: 100%;
+        margin: 5px;
     }
+
+    #demo{
+        width: 100%;
+        
+    }
+
+    .jumbotron {
+        width: 100%;
+    }
+
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -150,8 +205,16 @@ p2{
     
     .card {
         width: 45%;
+        margin: 5px;
     }
-
+    #demo{
+        width: 100%;
+        
+    }
+    
+    .jumbotron {
+        width: 100%;
+    }
 
 }
 
@@ -161,6 +224,12 @@ p2{
     .card {
         width: 35%;
     }
+
+    #demo{
+        width: 35%;
+        
+    }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -168,14 +237,7 @@ p2{
 
     
  }
-       
-
-
-
-/* header {
-    background-color: rgba(131, 6, 6, 0.11);
-} */
-
+ 
 .bold{
     /* color: rgba(231, 236, 230, 0.822); */
     /* font-family: 'Asap', sans-serif; */
@@ -191,48 +253,68 @@ p2{
     font-weight: bold;
 }
 
+.tech-Flash {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+   
+
+}
+
+.service-title {
+    font-family: 'Anton', sans-serif;
+    margin: 5px;
+    text-align: center;
+}
+
 .card-group {
+   
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    min-height: 500px; 
    min-width: 1024px;
-   margin-top: 5px;
+   margin: 5px;
+   text-align: left;
 }
 
-.card{
-    
-    
-  /* padding-top: 30px; */
-    min-width: 33%;
-    min-height: 200px;
-    /* margin-bottom:40px ; */
+.temoignage-text {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
+.card-img-top {
+    margin: 2px;
+}
 
+#demo{
+
+    margin-top: 100px;
+   
+}
+
+.carousel-inner{
+    margin: auto;
+}
+
+.carousel-indicators {
+    
+    color: black;
+}
 
 .card-body{
     padding: 15px;
 }
 
-/* .fa-solid fa-circle-info {
-    background-color: green;
-} */
-
-/* .conttextbox{
-    display: block;
-    text-align: right;
-    margin-right: 20px;
-}
- */
-
-
-
 
 .navbar-collapse{
-    /* position: left; */
-    align-items: right;
+    align-items:center
 }
 
 .fa-solid fa-circle-info{
@@ -246,11 +328,10 @@ p2{
     left: 30px;
 }
 
-.dropdown-menu{
- background-color: rgba(244, 244, 249, 0.297);
- align-items: center;
+.visite-kivu{
+    align-items: center;
+}
+.carousel-inner {
+    display: inline;
 }
 
-/* .card-section{
-    display: flex;
-} */
